@@ -1,0 +1,175 @@
+/* General Layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1F262E;
+  color: white;
+}
+
+.left-column,
+.right-column {
+  width: 48%;
+}
+
+h1, h2 {
+  color: var(--yellow);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+/* Section Title Styling */
+.section-title {
+  font-size: 22px;
+  color: var(--lightblue);
+  margin-bottom: 15px;
+}
+
+/* Scroller Styling */
+.scroller {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.skill-button {
+  background-color: var(--lightblue);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.skill-button.selected {
+  background-color: var(--yellow);
+}
+
+.skill-button:hover {
+  background-color: var(--darkblue);
+}
+
+.button-submit {
+  background-color: var(--yellow);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Add Goal Button */
+.add-goal-button,
+.view-friends-button {
+  background-color: var(--lightblue);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.add-goal-button:hover,
+.view-friends-button:hover {
+  background-color: var(--yellow);
+}
+
+/* Goal Item Styling */
+.goal-item {
+  background-color: var(--lightgray);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.goal-title {
+  font-size: 18px;
+  color: var(--lightblue);
+}
+
+.progress-bar {
+  background-color: #444;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: var(--yellow);
+  height: 100%;
+}
+
+/* Input Range */
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Popup Styling */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: var(--darkblue);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.popup-title {
+  font-size: 22px;
+  color: var(--yellow);
+}
+
+.popup-buttons {
+  margin-top: 20px;
+}
+
+.popup-button {
+  background-color: var(--lightblue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.popup-button.cancel {
+  background-color: var(--darkblue);
+}
+
+.popup-button:hover {
+  background-color: var(--yellow);
+}
+
+/* Friends Goal Item Styling */
+.friend-goal-item {
+  background-color: var(--lightgray);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.friend-goal-text {
+  font-size: 16px;
+  color: var(--lightblue);
+}
